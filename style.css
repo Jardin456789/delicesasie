@@ -7,9 +7,9 @@ body {
 
 button, li {
   font-family: 'Futura BK BT',  sans-serif;
-  margin-top: 30px;
+  margin-top: 20px;
   padding: 20px;
-  font-size: 30px;
+  font-size: 20px;
   list-style-type: none;
 }
 h1, h2, h3, h4, h5, p {
@@ -21,28 +21,28 @@ h1, h2, h3, h4, h5, p {
 h1 {}
 
 h2 {
-  font-size: 25px;
+  font-size: 15px;
   padding-top: 2px;
 }
 
 h3 {
-  font-size: 40px;
-  padding-top: 350px;
+  font-size: 30px;
+  padding-top: 250px;
 }
 
 h4 {
-  font-size: 40px;
-  padding: 50px;
+  font-size: 30px;
+  padding: 40px;
 }
 h5 {
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 30px;
   vertical-align: middle;
 }
 
 p {
-  font-size: 30px;
-  padding: 40px;
+  font-size: 20px;
+  padding: 20px;
 
 }
 #bg-carte, #bg-reserver,#bg-contact {
@@ -50,7 +50,7 @@ p {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 70vh;
+  height: 60vh;
   display: flex;
   background-attachment: fixed;
   opacity: 0.9;
@@ -69,7 +69,7 @@ p {
 }
 
 #contactinfo {
-  line-height: 300%;
+  line-height: 250%;
   color: #FFFFFF;
 }
 .txtcentrer {
@@ -103,9 +103,9 @@ p {
   position: absolute;
   width: 100%;
   text-align: center;
-  font-size: 70px;
+  font-size: 50px;
   font-family: "Futura BK BT";
-  padding: 120px;
+  padding: 100px;
 }
 
 /*subtitle carousel */
@@ -113,9 +113,9 @@ p {
   position: absolute;
   width: 100%;
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Futura BK BT";
-  padding: 220px;
+  padding: 180px;
 }
 
 /*baseline Carousel */
@@ -123,7 +123,7 @@ p {
   position: absolute;
   width: 100%;
   text-align: center;
-  font-size: 50px;
+  font-size: 30px;
   font-family: "Futura BK BT";
   padding-top: 420px;
 }
@@ -141,8 +141,8 @@ p {
     display: none;
     position: fixed;
     top: 30%;
-    left: 90%;
-    width: 10vh;
+    left: 92%;
+    width: 8vh;
     z-index: 9999;
     list-style-type: none;
     transition: opacity 2s;
@@ -151,20 +151,20 @@ p {
 #vNav ul {
     position: relative;
     padding: 3px;
-    padding-left: 35%;
+    padding-left: 25%;
 }
 
 #vNav ul li{
     position: relative;
-    padding-bottom: 20px;
-    padding-left: 35%;
+    padding-bottom: 10px;
+    padding-left: 25%;
     color: rgb(113,135,133);
 }
 
 #vNav a{
     display: block;
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
     text-indent: -9999px;
     border-radius: 50%;
     border: 2px solid;
@@ -186,7 +186,7 @@ p {
 
 .label {
     position: relative;
-    top: -200%;
+    top: -160%;
     left: -300%;
     width: 100%;
     text-align: right;
@@ -206,7 +206,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container1 {
-  max-width: 700px;
+  max-width: 500px;
   max-height: 100vh;
   position: relative;
   margin: auto;
@@ -262,8 +262,8 @@ img {vertical-align: middle;}
 /* The dots/bullets/indicators */
 .dot1 {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 10px;
+  width: 10px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
