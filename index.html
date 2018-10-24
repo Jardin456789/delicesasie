@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>D&eacutelices d'Asie</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section>
+      <!-- Carousel -->
+
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div id="top">
+          <h1 class="titlecarousel">D&eacutelices d'Asie</h1>
+          <h2 class="subtitlecarousel">Depuis 1989</h2>
+          <h3 class="baseline">Cuisine Asiatique</h3>
+        </div>
+
+        <div class="mySlides">
+          <img src="images/jesse-ballantyne-783149-unsplash.jpg" style="width:100%; height: 100vh">
+        </div>
+
+        <div class="mySlides">
+          <img src="images/oriento-744204-unsplash.jpg" style="width:100%; height: 100vh">
+        </div>
+
+        <div class="mySlides">
+          <img src="images/jason-cooper-482298-unsplash.jpg" style="width:100%; height: 100vh">
+        </div>
+      </div>
+      <!-- Bandeau -->
+      <div class="bandeau">
+        <div class="txtcentrer">
+        <h4>Bienvenu</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    <div id="bg-carte">
+      <h5 class="txtcentrer">La Carte</h5>
+    </div>
+
+
+
+      <!-- Other carousel for the Menu -->
+
+    <div class="slideshow-container1">
+      <div style="text-align:center">
+        <span class="dot1" onclick="currentSlide(1)"></span>
+        <span class="dot1" onclick="currentSlide(2)"></span>
+        <span class="dot1" onclick="currentSlide(3)"></span>
+        <span class="dot1" onclick="currentSlide(4)"></span>
+        <span class="dot1" onclick="currentSlide(5)"></span>
+      </div>
+      <br>
+      <div class="mySlides1 fade">
+       <img src="images/Menu/menu express.jpg" style="width:100%">
+        <div class="text">Caption Text</div>
+      </div>
+
+      <div class="mySlides1 fade">
+        <img src="images/Menu/menu gourmand.jpg" style="width:100%">
+        <div class="text1">Caption Two</div>
+      </div>
+
+      <div class="mySlides1 fade">
+        <img src="images/Menu/La carte Entrees.jpg" style="width:100%">
+        <div class="text1">Caption Three</div>
+      </div>
+      <div class="mySlides1 fade">
+       <img src="images/Menu/La carte plats.jpg" style="width:100%">
+        <div class="text">Caption Text</div>
+      </div>
+      <div class="mySlides1 fade">
+       <img src="images/Menu/La carte des accompagnements et desserts.jpg" style="width:100%">
+        <div class="text">Caption Text</div>
+      </div>
+
+      <a class="prev1" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next1" onclick="plusSlides(1)">&#10095;</a>
+
+      </div>
+
+
+
+
+
+    </div>
+    <div id="bg-reserver">
+      <div class="txtcentrer">
+        <h5>R&eacuteserver / Commander</h5>
+      </div>
+    </div>
+    <div class="txtcentrer">
+      <h4 id="reserverinfo">R&eacuteserver une table</h4>
+        <button>R&eacuteserver</button>
+        <p id="reserverinfo">Ouvert tous les jours sauf le dimanche</p>
+        <ul>
+          <li><strong>Midi</strong><br>
+            10h à 15h</li>
+          <li><strong>Soir</strong><br>
+            18h à 21h</li>
+        </ul>
+    </div>
+    <div class="bandeau">
+      <h4 class="txtcentrer">Cuisine fait maison</h4>
+    </div>
+    <div id="bg-contact">
+      <div class="txtcentrer">
+        <h5>Contact</h5>
+          <p id="contactinfo">04 78 60 35 22<br>
+            124 cours lafayette, Lyon 03<br>
+            delicesasie.lyon[at]gmail.com
+          </p>
+      </div>
+    </div>
+    <div id="googleMap" style="width:100%;height:400px;">
+
+      <!-- Erreur car pas de cle google pour API -->
+    </div>
+
+    <!-- Nav dot vertical -->
+    <div>
+    <ul id="vNav">
+         <li>
+             <a href="#top">
+                 <div class="label">D&eacutelices d'Asie</div>
+             </a>
+         </li>
+         <li>
+             <a href=".slideshow-container1">
+                 <div class="label">La carte</div>
+             </a>
+         </li>
+         <li>
+             <a href="#reserverinfo">
+                 <div class="label">R&eacuteserver</div>
+             </a>
+         </li>
+         <li>
+             <a href="#bg-contact">
+                 <div class="label">Contact</div>
+             </a>
+         </li>
+  </ul>
+ </div>
+
+  </section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="myscript.js"></script>
+  </body>
+</html>
